@@ -1,0 +1,42 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle wakame",
+        "command": "wakame:toggle"
+      },
+      {
+        "label": "Reverse Text",
+        "command": "wakame:reverse"
+      },
+      {
+        "label": "fetch Text",
+        "command": "wakame:fetch"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "wakame",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "wakame:toggle"
+            },
+            {
+              "label": "Reverse Text",
+              "command": "wakame:reverse"
+            },
+            {
+              "label": "fetch Text",
+              "command": "wakame:fetch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

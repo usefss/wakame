@@ -1,0 +1,20 @@
+{
+  "name": "wakame",
+  "main": "./lib/wakame",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "wakame:toggle",
+    "atom-workspace": "wakeme:reverse",
+    "atom-workspace": "wakame:fetch"
+  },
+  "repository": "https://github.com/atom/wakame",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
