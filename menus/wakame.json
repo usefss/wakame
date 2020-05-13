@@ -1,17 +1,21 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    "atom-workspace": [
       {
-        "label": "Toggle wakame",
-        "command": "wakame:toggle"
-      },
-      {
-        "label": "Reverse Text",
-        "command": "wakame:reverse"
-      },
-      {
-        "label": "fetch Text",
-        "command": "wakame:fetch"
+        "label": "Wakame",
+        "submenu":[
+          {
+            "label": "Toggle wakame",
+            "command": "wakame:toggle"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Reverse Text",
+            "command": "wakame:reverse"
+          }
+        ]
       }
     ]
   },
@@ -27,12 +31,11 @@
               "command": "wakame:toggle"
             },
             {
-              "label": "Reverse Text",
-              "command": "wakame:reverse"
+              "type": "separator"
             },
             {
-              "label": "fetch Text",
-              "command": "wakame:fetch"
+              "label": "Reverse Text",
+              "command": "wakame:reverse"
             }
           ]
         }
